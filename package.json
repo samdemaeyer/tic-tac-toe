@@ -11,5 +11,8 @@
     "game"
   ],
   "author": "chris paola",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.5.1"
+  }
 }
