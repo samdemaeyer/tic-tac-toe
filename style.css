@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker&display=swap');
+
+* {
+  font-family: 'Permanent Marker', cursive;
+  background-color: black;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+.container {
+  height:100vh;
+}
+
+.board-container{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 600px;
+  height: 600px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  flex-basis: 32%;
+  background: orange;
+  border: 1px black solid;
+}
+
+.reset-button {
+  text-align: center;
+  font-size: 20px;
+  color: orange;
+  border: 1px solid orange;
+  height: 45px;
+  width: 80px;
+  margin: 10px;
+}
+
+@media all and (max-width: 650px) {
+  .board{
+    width: 300px;
+    height: 300px;
+  }
+}
