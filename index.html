@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="index.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-tac-toe</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <script src="index.js" charset="utf-8" defer></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Tic-tac-toe</title>
-</head>
-
-<body>
-  <h1>Tic-tac-toe</h1>
-  <div class="container">
+  <body data-player="O">
+    <h1>Tic-tac-toe</h1>
+    <div class="winner"></div>
     <div class="board-container">
       <div class="board">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
+        <div class="square" data-grid-position="0-0"></div>
+        <div class="square" data-grid-position="0-1"></div>
+        <div class="square" data-grid-position="0-2"></div>
+        <div class="square" data-grid-position="1-0"></div>
+        <div class="square" data-grid-position="1-1"></div>
+        <div class="square" data-grid-position="1-2"></div>
+        <div class="square" data-grid-position="2-0"></div>
+        <div class="square" data-grid-position="2-1"></div>
+        <div class="square" data-grid-position="2-2"></div>
       </div>
     </div>
     <button class="reset-button">Reset</button>
-  </div>
-</body>
-
+  </body>
 </html>
